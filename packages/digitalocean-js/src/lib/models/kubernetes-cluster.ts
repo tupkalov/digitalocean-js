@@ -50,6 +50,7 @@ export interface KubernetesClusterRequest {
   name: string;
   region: string;
   version: string;
+  vpc_uuid?: string;
   auto_upgrade?: boolean;
   tags?: string[];
   maintenance_policy?: KubernetesClusterMaintenancePolicy;
